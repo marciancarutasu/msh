@@ -1,15 +1,10 @@
 import React from 'react';
+import {  } from '../App';
+import Nav from './nav';
 
 const Layout = (props) =>
-  <div className="bg-purple-500 border-black-2 m-5">
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Products</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
+  <div className="bg-purple-500 border-black m-5">
     {props.children}
   </div>
 
-export { Layout };
+export { Layout, Nav };
