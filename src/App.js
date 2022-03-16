@@ -1,6 +1,7 @@
 import React from 'react';
 import { Home, Products, Contact } from './pages';
 import { Nav } from './layout';
+import { Footer } from './layout';
 
 import {
   BrowserRouter as Router,
@@ -17,6 +18,7 @@ function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </Router>
   );
 };

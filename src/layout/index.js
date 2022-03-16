@@ -1,10 +1,11 @@
 import React from 'react';
 import {  } from '../App';
-import Nav from './nav';
+import Nav from '../components/nav';
+import Footer from '../components/footer'
 
 const Layout = (props) =>
-  <div className="">
+  <div>
     {props.children}
   </div>
 
-export { Layout, Nav };
+export { Layout, Nav, Footer };

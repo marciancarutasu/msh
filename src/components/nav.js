@@ -23,13 +23,14 @@ const Nav = () => {
         return <li>
           <NavLink
             exact
-            activeClassName="text-white"
+            activeClassName="active"
             to={navItem.path}>
             {navItem.name}
           </NavLink>
         </li>
       })}
     </ul>
+    <hr />
   </nav>
 };
 
