@@ -1,5 +1,4 @@
 import React from 'react';
-import { Layout } from './layout';
 import { Home, Products, Contact } from './pages';
 import { Nav } from './layout';
 
@@ -7,7 +6,6 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 function App() {
