@@ -10,14 +10,15 @@ const navs = [
     path: '/products',
     name: 'Products'},
   {
-    path: '/contact',
+    path: '',
     name: 'Contact'
   }
 ];
 
 const Nav = () => {
-  return <nav className="bg-purple-500 p-4">
-    <ul className="flex space-x-4 justify-end">
+  return <nav className="">
+    <a href="#">Not a real store</a>
+    <ul className="">
       {navs.map((navItem) => {
         return <li>
           <NavLink

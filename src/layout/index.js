@@ -3,7 +3,7 @@ import {  } from '../App';
 import Nav from './nav';
 
 const Layout = (props) =>
-  <div className="bg-purple-500 border-black m-5">
+  <div className="">
     {props.children}
   </div>
 
