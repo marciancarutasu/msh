@@ -4,7 +4,7 @@ import Nav from '../components/nav';
 import Footer from '../components/footer'
 
 const Layout = (props) =>
-  <div>
+  <div className="">
     {props.children}
   </div>
 

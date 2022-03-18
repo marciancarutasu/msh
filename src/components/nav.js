@@ -10,17 +10,17 @@ const navs = [
     path: '/products',
     name: 'Products'},
   {
-    path: '',
+    path: '/contact',
     name: 'Contact'
   }
 ];
 
 const Nav = () => {
-  return <nav className="">
-    <a href="#">Not a real store</a>
-    <ul className="">
+  return <nav className="header">
+    <a href="#" className="blue">Not a real store</a>
+    <ul className="header-navigation">
       {navs.map((navItem) => {
-        return <li>
+        return <li className="grey">
           <NavLink
             exact
             activeClassName="active"
@@ -30,7 +30,6 @@ const Nav = () => {
         </li>
       })}
     </ul>
-    <hr />
   </nav>
 };
 
