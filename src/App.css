@@ -55,19 +55,20 @@ ul.header-navigation li a.active {
 .home-screen a {
   display: block;
   font-size: 23px;
-  margin-top: 23px;
+  margin-top: 13px;
   margin-bottom: 72px;
 }
 
 .hpRightSectionOne {
   position: relative;
-  height: 300px;
+  height: 271px;
   margin-bottom: 72px;
 }
 
 .hpRightSectionOne img {
   position: absolute;
   right: 0;
+  top: -30px;
 }
 
 .rectangles {
@@ -101,6 +102,7 @@ ul.header-navigation li a.active {
 .hpRightSectionTwo a {
   display: inline-block;
   margin-left: 67px;
+  font-size: 18px;
 }
 
 .footer {
@@ -124,4 +126,44 @@ ul.header-navigation li a.active {
 
 .footerMenu li:last-child {
   margin-right: 0;
+}
+
+.productCardWrapper {
+  display: flex;
+}
+
+.productCard {
+  flex: 1;
+  width: 210px;
+  height: 209px;
+  margin-right: 20px;
+}
+
+.productCard:last-child {
+  margin-right: 0;
+}
+
+.productCardOuter {
+  border: 2px solid #C9C7DB;
+  margin-bottom: 13px;
+  height: 210px;
+  position: relative;
+}
+
+.productCard img {
+  max-width: 170px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.productCard p {
+  font-size: 18px;
+}
+
+.price {
+  float: right;
 }

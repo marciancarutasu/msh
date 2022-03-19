@@ -22,7 +22,7 @@ const Home = () =>
       </div>
       <div className="hpRightSectionTwo">
         <img src="hpimage2.png" />
-        <a href="#" className="blue">See our editorial &gt;</a>
+        <a href="#" className="">See our editorial &gt;</a>
       </div>
     </div>
   </div>

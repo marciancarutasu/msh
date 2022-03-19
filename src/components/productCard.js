@@ -6,8 +6,10 @@ const Product = () => {
   {
     productData.map((item) =>
       <div className="productCard">
-        <img src={item.image} />
-        <p><span>{item.brand}</span>{item.model}<span>${item.price}</span></p>
+        <div className="productCardOuter">
+          <img src={item.image} />
+        </div>
+        <p><span className="grey">{item.brand}</span>{item.model}<span className="blue price">${item.price}</span></p>
       </div>
   )}
   </div>
