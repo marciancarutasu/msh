@@ -1,9 +1,15 @@
 import React from 'react';
+import { productData } from '../data';
 
 const Product = () => {
-  return <div className="productCard">
-    <img src="product1.png"/>
-    <p><span>Nike</span> Air Force 1<span>$90</span></p>
+  return <div className="productCardWrapper">
+  {
+    productData.map((item) =>
+      <div className="productCard">
+        <img src={item.image} />
+        <p><span>{item.brand}</span>{item.model}<span>${item.price}</span></p>
+      </div>
+  )}
   </div>
 }
 

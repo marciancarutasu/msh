@@ -11,7 +11,6 @@ const Home = () =>
       <a href="#" className="blue">Shop now &gt;</a>
 
       <Product></Product>
-      <Product></Product>
 
     </div>
     <div className="col-6">
