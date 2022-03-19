@@ -5,10 +5,12 @@ import Product from "../components/productCard";
 const Home = () =>
   <Layout>
   <div className="row home-screen">
-    <div className="col-6">
+    <div className="col-6 homeLeft">
       <h1>Not a real store</h1>
       <p className="grey">Sed ut perspiciatis, unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam voluptatem, quia voluptas sit.</p>
       <a href="#" className="blue">Shop now &gt;</a>
+      <span className="spacer spacer1"></span>
+      <span className="spacer spacer2"></span>
 
       <Product></Product>
 
