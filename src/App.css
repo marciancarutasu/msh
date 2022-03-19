@@ -211,3 +211,40 @@ ul.header-navigation li a.active {
 .price {
   float: right;
 }
+
+.productsScreen .productCardWrapper {
+  margin-bottom: 70px;
+}
+
+.productsScreen {
+  margin-bottom: 47px;
+}
+
+.filterBtn {
+  border: 2px solid #C9C7DB;
+  padding: 15px 25px;
+  display: inline-block;
+  text-align: center;
+}
+
+.filterBtn.active {
+  background-color: #262626;
+  color: white;
+}
+
+.men, .women {
+  width: 256px;
+}
+
+.men {
+  margin-right: 20px;
+}
+
+.filters {
+  width: 348px;
+  float: right;
+}
+
+.productsFilters {
+  margin-bottom: 72px;
+}
