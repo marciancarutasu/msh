@@ -13,11 +13,15 @@ import {
   Route,
 } from "react-router-dom";
 
+/*
+**react-router@6 using function components
+**page transition won't work.
+*/
 function App() {
   return (
     <TransitionGroup>
       <CSSTransition
-        timeout={300}
+        timeout={1000}
         classNames="fade">
         <Router>
           <Nav />

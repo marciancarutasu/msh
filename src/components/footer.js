@@ -1,5 +1,8 @@
 import React from 'react';
 
+/*
+**footer component.
+*/
 const Footer = () => {
   return <footer className="footer">
     <span className="spacer spacer3"></span>

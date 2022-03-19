@@ -1,6 +1,9 @@
 import React from 'react';
 import { productData } from '../data';
 
+/*
+**products card component.
+*/
 const Product = () => {
   return <div className="productCardWrapper">
   {

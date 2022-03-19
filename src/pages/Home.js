@@ -2,6 +2,9 @@ import React from 'react';
 import { Layout } from '../layout';
 import Product from "../components/productCard";
 
+/*
+**home page using function components.
+*/
 const Home = () =>
   <Layout>
   <div className="row home-screen">

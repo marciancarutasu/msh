@@ -2,6 +2,9 @@ import React from 'react';
 import { Layout } from '../layout';
 import Product from "../components/productCard";
 
+/*
+**products page using function components.
+*/
 const Products = () =>
   <Layout>
   <div className="productsFilters">

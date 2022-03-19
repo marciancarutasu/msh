@@ -1,3 +1,6 @@
+/*
+**json data for products page.
+*/
 export const productData = [
   {
     id: 1,

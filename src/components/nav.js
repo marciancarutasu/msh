@@ -15,6 +15,9 @@ const navs = [
   }
 ];
 
+/*
+**navigation component.
+*/
 const Nav = () => {
   return <nav className="header">
     <a href="#" className="blue">Not a real store</a>
